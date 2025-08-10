@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "eventpulse": {
+      "command": "node",
+      "args": ["src/mcp-server.js"],
+      "cwd": ".",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "generate_festival_campaign",
+        "get_festival_insights"
+      ]
+    }
+  }
+}

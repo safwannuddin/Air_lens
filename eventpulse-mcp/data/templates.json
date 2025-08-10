@@ -1,0 +1,117 @@
+{
+  "prompt_templates": {
+    "hindi": {
+      "whatsapp_template": "आप एक {business_type} के लिए {event} के त्योहार का WhatsApp संदेश लिख रहे हैं। संदेश में शामिल करें: 1) त्योहार की शुभकामनाएं 2) विशेष ऑफर 3) व्यापार की जानकारी 4) संपर्क विवरण। संदेश हिंदी में, आकर्षक और व्यावसायिक होना चाहिए।",
+      "social_template": "एक {business_type} के लिए {event} का सोशल मीडिया पोस्ट बनाएं। पोस्ट में त्योहार की खुशी, विशेष ऑफर, और व्यापार की विशेषताएं शामिल हों। हिंदी में लिखें।",
+      "hashtag_template": "{event} और {business_type} के लिए हिंदी और अंग्रेजी में प्रासंगिक हैशटैग सुझाएं।"
+    },
+    "gujarati": {
+      "whatsapp_template": "તમે એક {business_type} માટે {event} ના તહેવારનો WhatsApp સંદેશ લખી રહ્યા છો। સંદેશમાં સમાવેશ કરો: 1) તહેવારની શુભકામનાઓ 2) વિશેષ ઓફર 3) વ્યવસાયની માહિતી 4) સંપર્ક વિગતો। સંદેશ ગુજરાતીમાં, આકર્ષક અને વ્યાવસાયિક હોવો જોઈએ।",
+      "social_template": "એક {business_type} માટે {event} નો સોશિયલ મીડિયા પોસ્ટ બનાવો। પોસ્ટમાં તહેવારની ખુશી, વિશેષ ઓફર, અને વ્યવસાયની વિશેષતાઓ સમાવેશ હોય। ગુજરાતીમાં લખો।",
+      "hashtag_template": "{event} અને {business_type} માટે ગુજરાતી અને અંગ્રેજીમાં સંબંધિત હેશટેગ સૂચવો।"
+    },
+    "english": {
+      "whatsapp_template": "You are writing a WhatsApp message for a {business_type} for the {event} festival. Include: 1) Festival greetings 2) Special offers 3) Business information 4) Contact details. The message should be engaging and professional in English.",
+      "social_template": "Create a social media post for a {business_type} for {event}. Include festival joy, special offers, and business highlights. Write in English.",
+      "hashtag_template": "Suggest relevant hashtags for {event} and {business_type} in English."
+    },
+    "tamil": {
+      "whatsapp_template": "நீங்கள் ஒரு {business_type} க்காக {event} திருவிழாவின் WhatsApp செய்தியை எழுதுகிறீர்கள். செய்தியில் சேர்க்கவும்: 1) திருவிழா வாழ்த்துகள் 2) சிறப்பு சலுகைகள் 3) வணிக தகவல் 4) தொடர்பு விவரங்கள். செய்தி தமிழில், கவர்ச்சிகரமான மற்றும் தொழில்முறையாக இருக்க வேண்டும்.",
+      "social_template": "ஒரு {business_type} க்காக {event} இன் சமூக ஊடக இடுகையை உருவாக்கவும். இடுகையில் திருவிழா மகிழ்ச்சி, சிறப்பு சலுகைகள் மற்றும் வணிக சிறப்பம்சங்கள் இருக்க வேண்டும். தமிழில் எழுதவும்.",
+      "hashtag_template": "{event} மற்றும் {business_type} க்காக தமிழ் மற்றும் ஆங்கிலத்தில் தொடர்புடைய ஹேஷ்டேக்குகளை பரிந்துரைக்கவும்."
+    },
+    "bengali": {
+      "whatsapp_template": "আপনি একটি {business_type} এর জন্য {event} উৎসবের WhatsApp বার্তা লিখছেন। বার্তায় অন্তর্ভুক্ত করুন: 1) উৎসবের শুভেচ্ছা 2) বিশেষ অফার 3) ব্যবসার তথ্য 4) যোগাযোগের বিবরণ। বার্তাটি বাংলায়, আকর্ষণীয় এবং পেশাদার হতে হবে।",
+      "social_template": "একটি {business_type} এর জন্য {event} এর সোশ্যাল মিডিয়া পোস্ট তৈরি করুন। পোস্টে উৎসবের আনন্দ, বিশেষ অফার এবং ব্যবসার বিশেষত্ব থাকতে হবে। বাংলায় লিখুন।",
+      "hashtag_template": "{event} এবং {business_type} এর জন্য বাংলা এবং ইংরেজিতে প্রাসঙ্গিক হ্যাশট্যাগ সুপারিশ করুন।"
+    },
+    "marathi": {
+      "whatsapp_template": "तुम्ही एका {business_type} साठी {event} सणाचा WhatsApp संदेश लिहित आहात. संदेशात समाविष्ट करा: 1) सणाच्या शुभेच्छा 2) विशेष ऑफर 3) व्यवसायाची माहिती 4) संपर्क तपशील. संदेश मराठीत, आकर्षक आणि व्यावसायिक असावा.",
+      "social_template": "एका {business_type} साठी {event} चे सोशल मीडिया पोस्ट तयार करा. पोस्टमध्ये सणाचा आनंद, विशेष ऑफर आणि व्यवसायाची वैशिष्ट्ये असावीत. मराठीत लिहा.",
+      "hashtag_template": "{event} आणि {business_type} साठी मराठी आणि इंग्रजीत संबंधित हॅशटॅग सुचवा."
+    }
+  },
+  "offer_templates": {
+    "discount_based": [
+      "Flat {percentage}% OFF on all items",
+      "Buy 2 Get 1 FREE",
+      "Special {event} discount - {percentage}% OFF",
+      "Minimum {amount} purchase, get {percentage}% discount"
+    ],
+    "value_added": [
+      "Free home delivery on orders above ₹{amount}",
+      "Complimentary gift wrapping",
+      "Free {item} with every purchase",
+      "Extended warranty/guarantee"
+    ],
+    "bundle_offers": [
+      "Family pack special - Save ₹{amount}",
+      "Combo offer - {item1} + {item2} at special price",
+      "Group booking discount",
+      "Bulk order benefits"
+    ]
+  },
+  "timing_suggestions": {
+    "diwali": {
+      "optimal_posting_times": ["10:00 AM", "2:00 PM", "6:00 PM"],
+      "campaign_duration": "7-10 days before festival",
+      "peak_engagement": "evening hours"
+    },
+    "holi": {
+      "optimal_posting_times": ["9:00 AM", "1:00 PM", "5:00 PM"],
+      "campaign_duration": "3-5 days before festival",
+      "peak_engagement": "morning and afternoon"
+    },
+    "eid": {
+      "optimal_posting_times": ["11:00 AM", "3:00 PM", "7:00 PM"],
+      "campaign_duration": "5-7 days before festival",
+      "peak_engagement": "after prayer times"
+    },
+    "navratri": {
+      "optimal_posting_times": ["8:00 AM", "12:00 PM", "4:00 PM", "8:00 PM"],
+      "campaign_duration": "10-15 days before festival",
+      "peak_engagement": "evening hours before garba"
+    },
+    "raksha_bandhan": {
+      "optimal_posting_times": ["9:00 AM", "1:00 PM", "5:00 PM"],
+      "campaign_duration": "5-7 days before festival",
+      "peak_engagement": "morning and afternoon"
+    },
+    "ganesh_chaturthi": {
+      "optimal_posting_times": ["7:00 AM", "11:00 AM", "4:00 PM", "7:00 PM"],
+      "campaign_duration": "7-10 days before festival",
+      "peak_engagement": "morning and evening prayer times"
+    },
+    "karva_chauth": {
+      "optimal_posting_times": ["10:00 AM", "2:00 PM", "6:00 PM"],
+      "campaign_duration": "3-5 days before festival",
+      "peak_engagement": "afternoon hours"
+    }
+  },
+  "cultural_elements": {
+    "hindi": {
+      "greetings": ["शुभकामनाएं", "बधाई हो", "मंगलकामनाएं"],
+      "closing": ["धन्यवाद", "आपका स्वागत है", "संपर्क करें"]
+    },
+    "gujarati": {
+      "greetings": ["શુભકામનાઓ", "અભિનંદન", "મંગલકામનાઓ"],
+      "closing": ["આભાર", "તમારું સ્વાગત છે", "સંપર્ક કરો"]
+    },
+    "english": {
+      "greetings": ["Warm wishes", "Congratulations", "Best regards"],
+      "closing": ["Thank you", "You're welcome", "Contact us"]
+    },
+    "tamil": {
+      "greetings": ["வாழ்த்துகள்", "நல்வாழ்த்துகள்", "மங்கல வாழ்த்துகள்"],
+      "closing": ["நன்றி", "உங்களை வரவேற்கிறோம்", "தொடர்பு கொள்ளுங்கள்"]
+    },
+    "bengali": {
+      "greetings": ["শুভেচ্ছা", "অভিনন্দন", "মঙ্গলকামনা"],
+      "closing": ["ধন্যবাদ", "আপনাকে স্বাগতম", "যোগাযোগ করুন"]
+    },
+    "marathi": {
+      "greetings": ["शुभेच्छा", "अभिनंदन", "मंगलकामना"],
+      "closing": ["धन्यवाद", "तुमचे स्वागत आहे", "संपर्क साधा"]
+    }
+  }
+}

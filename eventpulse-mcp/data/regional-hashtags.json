@@ -1,0 +1,68 @@
+{
+  "regional_hashtags": {
+    "mumbai": ["#Mumbai", "#BombaySpecial", "#MumbaiKarSpecial", "#MaxCity"],
+    "delhi": ["#Delhi", "#DelhiSpecial", "#CapitalCity", "#DilliKiBaat"],
+    "bangalore": ["#Bangalore", "#Bengaluru", "#SiliconCity", "#NammaOoru"],
+    "chennai": ["#Chennai", "#Madras", "#ChennaiSpecial", "#TamilNadu"],
+    "kolkata": ["#Kolkata", "#Calcutta", "#CityOfJoy", "#WestBengal"],
+    "hyderabad": ["#Hyderabad", "#Cyberabad", "#Telangana", "#BiryaniCity"],
+    "pune": ["#Pune", "#PuneSpecial", "#Maharashtra", "#OxfordOfEast"],
+    "ahmedabad": ["#Ahmedabad", "#Amdavad", "#Gujarat", "#BusinessCity"],
+    "surat": ["#Surat", "#DiamondCity", "#Gujarat", "#TextileCity"],
+    "jaipur": ["#Jaipur", "#PinkCity", "#Rajasthan", "#RoyalCity"],
+    "lucknow": ["#Lucknow", "#Nawabo", "#UttarPradesh", "#CityOfTehzeeb"],
+    "kanpur": ["#Kanpur", "#LeatherCity", "#UttarPradesh", "#Industrial"],
+    "nagpur": ["#Nagpur", "#OrangeCity", "#Maharashtra", "#CentralIndia"],
+    "indore": ["#Indore", "#CleanestCity", "#MadhyaPradesh", "#CommercialCity"],
+    "bhopal": ["#Bhopal", "#CityOfLakes", "#MadhyaPradesh", "#Capital"],
+    "visakhapatnam": ["#Visakhapatnam", "#Vizag", "#AndhraPradesh", "#PortCity"],
+    "vadodara": ["#Vadodara", "#Baroda", "#Gujarat", "#CulturalCity"],
+    "ghaziabad": ["#Ghaziabad", "#UttarPradesh", "#NCR", "#Industrial"],
+    "ludhiana": ["#Ludhiana", "#Punjab", "#Industrial", "#TextileHub"],
+    "agra": ["#Agra", "#TajCity", "#UttarPradesh", "#Heritage"],
+    "nashik": ["#Nashik", "#WineCity", "#Maharashtra", "#Pilgrimage"],
+    "faridabad": ["#Faridabad", "#Haryana", "#NCR", "#Industrial"],
+    "meerut": ["#Meerut", "#UttarPradesh", "#SportsCity", "#Heritage"],
+    "rajkot": ["#Rajkot", "#Gujarat", "#Industrial", "#Business"],
+    "kalyan": ["#Kalyan", "#Maharashtra", "#Mumbai", "#Suburban"],
+    "vasai": ["#Vasai", "#Maharashtra", "#Mumbai", "#Coastal"]
+  },
+  "festival_trending": {
+    "diwali": {
+      "2024": ["#Diwali2024", "#FestivalOfLights2024", "#DiwaliVibes", "#LightUpYourLife"],
+      "general": ["#DiwaliShopping", "#DiwaliOffers", "#DiwaliSpecial", "#FamilyTime"]
+    },
+    "holi": {
+      "2024": ["#Holi2024", "#HoliHai", "#ColorFestival2024", "#HoliCelebration"],
+      "general": ["#HoliColors", "#FestivalOfColors", "#HoliSpecial", "#ColorfulLife"]
+    },
+    "navratri": {
+      "2024": ["#Navratri2024", "#Garba2024", "#Dandiya2024", "#NavratriSpecial"],
+      "general": ["#GarbaRaas", "#NavratriVibes", "#DandiyaNights", "#GujaratiCulture"]
+    },
+    "eid": {
+      "2024": ["#Eid2024", "#EidMubarak2024", "#EidCelebration", "#EidSpecial"],
+      "general": ["#EidShopping", "#EidFeast", "#EidJoy", "#IslamicFestival"]
+    },
+    "ganesh_chaturthi": {
+      "2024": ["#GaneshChaturthi2024", "#GanpatiBappa2024", "#GaneshFestival"],
+      "general": ["#GanpatiBappaMorya", "#ModakSpecial", "#GaneshUtsav", "#Maharashtra"]
+    }
+  },
+  "business_trending": {
+    "sweet_shop": ["#TraditionalSweets", "#HomemadeSweets", "#FreshSweets", "#SweetTooth", "#Mithai"],
+    "clothing_store": ["#EthnicWear", "#FashionTrends", "#StyleStatement", "#TraditionalFashion", "#FestiveWear"],
+    "restaurant": ["#AuthenticFood", "#FamilyDining", "#FoodLovers", "#TraditionalCuisine", "#FreshFood"],
+    "jewelry_shop": ["#TraditionalJewelry", "#GoldJewelry", "#HandcraftedJewelry", "#BridalJewelry", "#PreciousGems"],
+    "electronics": ["#LatestTech", "#SmartGadgets", "#ElectronicsDeals", "#TechSavvy", "#Innovation"],
+    "beauty_salon": ["#BeautyTreatment", "#SkinCare", "#HairStyling", "#BeautyGoals", "#Grooming"],
+    "flower_shop": ["#FreshFlowers", "#FloralArrangements", "#NaturalBeauty", "#FlowerPower", "#Blooms"],
+    "gift_shop": ["#PerfectGifts", "#SpecialGifts", "#GiftIdeas", "#Thoughtful", "#Memorable"]
+  },
+  "seasonal_hashtags": {
+    "winter": ["#WinterSpecial", "#WarmUp", "#CozyVibes", "#WinterFashion"],
+    "summer": ["#SummerCool", "#BeatTheHeat", "#SummerSpecial", "#RefreshingDeals"],
+    "monsoon": ["#MonsoonMagic", "#RainyDays", "#MonsoonSpecial", "#FreshStart"],
+    "spring": ["#SpringFresh", "#NewBeginnings", "#BloomingSeason", "#SpringSpecial"]
+  }
+}

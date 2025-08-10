@@ -1,0 +1,493 @@
+{
+  "festivals": {
+    "diwali": {
+      "name": "Diwali",
+      "description": "Festival of Lights",
+      "months": [
+        10,
+        11
+      ],
+      "regions": [
+        "all"
+      ],
+      "business_opportunities": {
+        "sweet_shop": [
+          "special sweets",
+          "gift boxes",
+          "bulk orders"
+        ],
+        "clothing_store": [
+          "festive wear",
+          "ethnic collection",
+          "family outfits"
+        ],
+        "jewelry_shop": [
+          "gold offers",
+          "diamond collection",
+          "traditional jewelry"
+        ],
+        "electronics": [
+          "appliance discounts",
+          "gadget offers",
+          "home lighting"
+        ],
+        "restaurant": [
+          "festive menu",
+          "family packages",
+          "catering services"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "दीपावली की शुभकामनाएं",
+        "gujarati": "દિવાળીની શુભકામનાઓ",
+        "english": "Happy Diwali"
+      },
+      "popular_hashtags": [
+        "#Diwali",
+        "#FestivalOfLights",
+        "#DiwaliOffers",
+        "#FestiveShopping"
+      ]
+    },
+    "holi": {
+      "name": "Holi",
+      "description": "Festival of Colors",
+      "months": [
+        3
+      ],
+      "regions": [
+        "north_india",
+        "central_india"
+      ],
+      "business_opportunities": {
+        "sweet_shop": [
+          "gujiya",
+          "thandai",
+          "festive sweets"
+        ],
+        "clothing_store": [
+          "white clothes",
+          "casual wear",
+          "color-resistant fabric"
+        ],
+        "restaurant": [
+          "holi special menu",
+          "thandai",
+          "festive drinks"
+        ],
+        "beauty_salon": [
+          "skin care",
+          "hair protection",
+          "post-holi treatments"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "होली की शुभकामनाएं",
+        "gujarati": "હોળીની શુભકામનાઓ",
+        "english": "Happy Holi"
+      },
+      "popular_hashtags": [
+        "#Holi",
+        "#FestivalOfColors",
+        "#HoliCelebration",
+        "#ColorfulHoli"
+      ]
+    },
+    "eid": {
+      "name": "Eid",
+      "description": "Islamic Festival",
+      "months": [
+        4,
+        5,
+        11,
+        12
+      ],
+      "regions": [
+        "all"
+      ],
+      "business_opportunities": {
+        "sweet_shop": [
+          "dates",
+          "baklava",
+          "special sweets"
+        ],
+        "clothing_store": [
+          "ethnic wear",
+          "kurtas",
+          "festive collection"
+        ],
+        "restaurant": [
+          "iftar menu",
+          "eid special",
+          "family meals"
+        ],
+        "jewelry_shop": [
+          "gold jewelry",
+          "traditional pieces",
+          "gift items"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "ईद मुबारक",
+        "english": "Eid Mubarak",
+        "urdu": "عید مبارک"
+      },
+      "popular_hashtags": [
+        "#EidMubarak",
+        "#EidCelebration",
+        "#EidShopping",
+        "#FestiveOffers"
+      ]
+    },
+    "navratri": {
+      "name": "Navratri",
+      "description": "Nine Nights Festival",
+      "months": [
+        9,
+        10
+      ],
+      "regions": [
+        "gujarat",
+        "maharashtra",
+        "rajasthan"
+      ],
+      "business_opportunities": {
+        "clothing_store": [
+          "chaniya choli",
+          "ethnic wear",
+          "dandiya outfits"
+        ],
+        "jewelry_shop": [
+          "traditional jewelry",
+          "oxidized jewelry",
+          "festive accessories"
+        ],
+        "restaurant": [
+          "fasting menu",
+          "navratri thali",
+          "special dishes"
+        ],
+        "dance_academy": [
+          "garba classes",
+          "dandiya workshops",
+          "cultural programs"
+        ]
+      },
+      "cultural_context": {
+        "gujarati": "નવરાત્રીની શુભકામનાઓ",
+        "hindi": "नवरात्रि की शुभकामनाएं",
+        "english": "Happy Navratri"
+      },
+      "popular_hashtags": [
+        "#Navratri",
+        "#Garba",
+        "#Dandiya",
+        "#NavratriSpecial"
+      ]
+    },
+    "raksha_bandhan": {
+      "name": "Raksha Bandhan",
+      "description": "Brother-Sister Festival",
+      "months": [
+        8
+      ],
+      "regions": [
+        "north_india",
+        "central_india"
+      ],
+      "business_opportunities": {
+        "sweet_shop": [
+          "rakhi sweets",
+          "gift boxes",
+          "traditional sweets"
+        ],
+        "gift_shop": [
+          "rakhis",
+          "gift hampers",
+          "brother gifts"
+        ],
+        "jewelry_shop": [
+          "sister gifts",
+          "traditional jewelry",
+          "rakhi accessories"
+        ],
+        "clothing_store": [
+          "ethnic wear",
+          "brother-sister outfits",
+          "festive collection"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "रक्षाबंधन की शुभकामनाएं",
+        "gujarati": "રક્ષાબંધનની શુભકામનાઓ",
+        "english": "Happy Raksha Bandhan"
+      },
+      "popular_hashtags": [
+        "#RakshaBandhan",
+        "#RakhiCelebration",
+        "#BrotherSister",
+        "#RakhiGifts"
+      ]
+    },
+    "karva_chauth": {
+      "name": "Karva Chauth",
+      "description": "Hindu Festival for Married Women",
+      "months": [
+        10,
+        11
+      ],
+      "regions": [
+        "north_india",
+        "central_india"
+      ],
+      "business_opportunities": {
+        "jewelry_shop": [
+          "traditional jewelry",
+          "karva chauth special",
+          "gold ornaments"
+        ],
+        "clothing_store": [
+          "sarees",
+          "ethnic wear",
+          "bridal collection"
+        ],
+        "beauty_salon": [
+          "mehendi service",
+          "bridal makeup",
+          "hair styling"
+        ],
+        "sweet_shop": [
+          "special sweets",
+          "dry fruits",
+          "gift boxes"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "करवा चौथ की शुभकामनाएं",
+        "english": "Happy Karva Chauth"
+      },
+      "popular_hashtags": [
+        "#KarvaChauth",
+        "#KarvaChauth2024",
+        "#TraditionalJewelry",
+        "#EthnicWear"
+      ]
+    },
+    "ganesh_chaturthi": {
+      "name": "Ganesh Chaturthi",
+      "description": "Hindu Festival of Lord Ganesha",
+      "months": [
+        8,
+        9
+      ],
+      "regions": [
+        "maharashtra",
+        "karnataka",
+        "andhra_pradesh"
+      ],
+      "business_opportunities": {
+        "sweet_shop": [
+          "modak",
+          "laddu",
+          "prasad items"
+        ],
+        "flower_shop": [
+          "garlands",
+          "decorative flowers",
+          "puja items"
+        ],
+        "restaurant": [
+          "maharashtrian thali",
+          "festive menu",
+          "catering"
+        ],
+        "decoration_shop": [
+          "ganesh idols",
+          "decorations",
+          "puja items"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "गणेश चतुर्थी की शुभकामनाएं",
+        "marathi": "गणेश चतुर्थीच्या हार्दिक शुभेच्छा",
+        "english": "Happy Ganesh Chaturthi"
+      },
+      "popular_hashtags": [
+        "#GaneshChaturthi",
+        "#GanpatiBappaMorya",
+        "#Modak",
+        "#GaneshFestival"
+      ]
+    },
+    "christmas": {
+      "name": "Christmas",
+      "description": "Christian Festival",
+      "months": [
+        12
+      ],
+      "regions": [
+        "all"
+      ],
+      "business_opportunities": {
+        "sweet_shop": [
+          "christmas cakes",
+          "cookies",
+          "festive desserts"
+        ],
+        "clothing_store": [
+          "winter wear",
+          "party outfits",
+          "gift items"
+        ],
+        "restaurant": [
+          "christmas menu",
+          "family dinners",
+          "party bookings"
+        ],
+        "gift_shop": [
+          "christmas decorations",
+          "gift hampers",
+          "greeting cards"
+        ]
+      },
+      "cultural_context": {
+        "hindi": "क्रिसमस की शुभकामनाएं",
+        "english": "Merry Christmas"
+      },
+      "popular_hashtags": [
+        "#Christmas",
+        "#MerryChristmas",
+        "#ChristmasOffers",
+        "#FestiveShopping"
+      ]
+    }
+  },
+  "business_types": {
+    "sweet_shop": {
+      "keywords": [
+        "sweets",
+        "mithai",
+        "desserts",
+        "traditional"
+      ],
+      "common_offers": [
+        "buy 2 get 1",
+        "bulk discounts",
+        "gift packaging",
+        "home delivery"
+      ]
+    },
+    "clothing_store": {
+      "keywords": [
+        "fashion",
+        "ethnic wear",
+        "festive collection",
+        "outfits"
+      ],
+      "common_offers": [
+        "flat discount",
+        "buy 1 get 1",
+        "free alteration",
+        "exchange offer"
+      ]
+    },
+    "restaurant": {
+      "keywords": [
+        "food",
+        "dining",
+        "special menu",
+        "family meals"
+      ],
+      "common_offers": [
+        "family packages",
+        "group discounts",
+        "free dessert",
+        "home delivery"
+      ]
+    },
+    "jewelry_shop": {
+      "keywords": [
+        "gold",
+        "silver",
+        "traditional",
+        "ornaments"
+      ],
+      "common_offers": [
+        "making charges free",
+        "exchange offer",
+        "gold rate discount",
+        "installment plans"
+      ]
+    },
+    "electronics": {
+      "keywords": [
+        "gadgets",
+        "appliances",
+        "technology",
+        "home electronics"
+      ],
+      "common_offers": [
+        "cashback",
+        "EMI options",
+        "exchange bonus",
+        "warranty extension"
+      ]
+    },
+    "beauty_salon": {
+      "keywords": [
+        "beauty",
+        "grooming",
+        "skincare",
+        "hair styling"
+      ],
+      "common_offers": [
+        "package deals",
+        "first visit discount",
+        "loyalty rewards",
+        "group bookings"
+      ]
+    },
+    "flower_shop": {
+      "keywords": [
+        "flowers",
+        "garlands",
+        "decorations",
+        "fresh blooms"
+      ],
+      "common_offers": [
+        "bulk discounts",
+        "free delivery",
+        "custom arrangements",
+        "seasonal specials"
+      ]
+    },
+    "gift_shop": {
+      "keywords": [
+        "gifts",
+        "hampers",
+        "souvenirs",
+        "special occasions"
+      ],
+      "common_offers": [
+        "gift wrapping",
+        "combo offers",
+        "personalization",
+        "bulk discounts"
+      ]
+    },
+    "decoration_shop": {
+      "keywords": [
+        "decorations",
+        "party supplies",
+        "festive items",
+        "home decor"
+      ],
+      "common_offers": [
+        "rental options",
+        "bulk pricing",
+        "setup services",
+        "seasonal discounts"
+      ]
+    }
+  }
+}
