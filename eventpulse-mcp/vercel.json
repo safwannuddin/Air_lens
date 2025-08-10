@@ -2,17 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/server.js",
+      "src": "src/mcp-server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/server.js"
+      "dest": "src/mcp-server.js"
     }
   ],
   "env": {
     "NODE_ENV": "production"
+  },
+  "functions": {
+    "src/mcp-server.js": {
+      "maxDuration": 30
+    }
   }
 }
