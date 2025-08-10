@@ -91,6 +91,25 @@ class EventPulseMCPServer {
               },
               required: ['event']
             }
+          },
+          {
+            name: 'validate',
+            description: 'Validate and return user number in country code format for hackathon submission',
+            inputSchema: {
+              type: 'object',
+              properties: {
+                number: {
+                  type: 'string',
+                  description: 'User phone number'
+                },
+                country_code: {
+                  type: 'string',
+                  description: 'Country code (e.g., +91 for India)',
+                  default: '+91'
+                }
+              },
+              required: []
+            }
           }
         ]
       };
@@ -107,6 +126,9 @@ class EventPulseMCPServer {
           
           case 'get_festival_insights':
             return await this.handleFestivalInsights(args);
+          
+          case 'validate':
+            return await this.handleValidate(args);
           
           default:
             throw new Error(`Unknown tool: ${name}`);
@@ -232,6 +254,25 @@ ${festivalData.traditional_elements.map((element, i) => `• ${element}`).join('
         {
           type: 'text',
           text: insights
+        }
+      ]
+    };
+  }
+
+  async handleValidate(args) {
+    // This is the required validate tool for hackathon submission
+    // Returns user number in {country_code}{number} format
+    const { number = '', country_code = '+91' } = args;
+    
+    // For hackathon submission - you can customize this with your actual number
+    const userNumber = number || '1234567890'; // Replace with your actual number
+    const formattedNumber = `${country_code}${userNumber}`;
+    
+    return {
+      content: [
+        {
+          type: 'text',
+          text: `Validated number: ${formattedNumber}`
         }
       ]
     };
