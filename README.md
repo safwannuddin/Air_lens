@@ -345,9 +345,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 **Contact**
 
-**Developer**: Safwan Nuddin  
+**Developer**: Mohd  Safwan uddin  
 **GitHub**: [@safwannuddin](https://github.com/safwannuddin)  
-**Project**: [Air_lens/eventpulse-mcp](https://github.com/safwannuddin/Air_lens)  
+**Project**: [/eventpulse-mcp](https://github.com/safwannuddin/eventpulse-mcp)  
 
 ---
 
