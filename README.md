@@ -287,24 +287,26 @@ npm run test:mcp         # MCP protocol tests
 ## 🏗️ **Project Structure**
 
 ```
-eventpulse-mcp/
-├── src/
-│   ├── mcp-server.js          # 🔧 Main MCP protocol server
-│   ├── campaign-generator.js  # 🎯 AI campaign generation engine
-│   ├── content-enhancer.js    # 🎭 Cultural context enhancement
-│   ├── utils.js              # 🛠️ Validation and utilities
-│   └── server.js             # 🌐 Bonus REST API server
-├── data/
-│   ├── festivals.json        # 🎊 Festival database
-│   ├── templates.json        # 📝 Content templates
-│   └── regional-hashtags.json # 🏷️ Hashtag database
-├── test/
-│   ├── test-manual.js        # 🧪 Core functionality tests
-│   ├── test-server.js        # 🌐 API server tests
-│   └── test-mcp-simple.js    # 🔧 MCP protocol tests
-├── package.json              # 📦 Dependencies and scripts
-├── README.md                 # 📖 This documentation
-└── .env.example              # ⚙️ Environment configuration
+Air_lens/
+├── eventpulse-mcp/           # 🎯 Main MCP Server Project
+│   ├── src/
+│   │   ├── mcp-server.js          # 🔧 Main MCP protocol server
+│   │   ├── campaign-generator.js  # � ArI campaign generation engine
+│   │   ├── content-enhancer.js    # 🎭 Cultural context enhancement
+│   │   ├── utils.js              # 🛠️ Validation and utilities
+│   │   └── server.js             # 🌐 Bonus REST API server
+│   ├── data/
+│   │   ├── festivals.json        # 🎊 Festival database
+│   │   ├── templates.json        # 📝 Content templates
+│   │   └── regional-hashtags.json # 🏷️ Hashtag database
+│   ├── test/
+│   │   ├── test-manual.js        # 🧪 Core functionality tests
+│   │   ├── test-server.js        # 🌐 API server tests
+│   │   └── test-mcp-simple.js    # � MCPn protocol tests
+│   ├── package.json              # 📦 Dependencies and scripts
+│   ├── README.md                 # 📖 Detailed documentation
+│   └── .env.example              # ⚙️ Environment configuration
+└── README.md                     # 📖 This hackathon submission overview
 ```
 
 ---
@@ -360,8 +362,11 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ✅ **Cultural Intelligence**: Deep understanding of Indian festivals and languages  
 ✅ **Immediate Impact**: Ready-to-use tool for 63+ million small businesses  
 ✅ **Scalable Architecture**: Built for growth and extensibility  
+✅ **Focused Implementation**: Pure MCP server without unnecessary frontend complexity
 
 **This is more than just code - it's a bridge between AI technology and cultural celebration, empowering small businesses to connect with their communities in authentic, meaningful ways.** 🚀
+
+> **Note**: This project focuses exclusively on the MCP server implementation. No frontend is needed - the power lies in extending AI assistants with specialized cultural and business intelligence.
 
 ---
 
