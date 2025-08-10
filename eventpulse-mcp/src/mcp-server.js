@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
 const { Server } = require('@modelcontextprotocol/sdk/server/index.js');
-const { StdioServerTransport } = require('@modelcontextprotocol/sdk/server/stdio.js');
+const { SSEServerTransport } = require('@modelcontextprotocol/sdk/server/sse.js');
 const { CallToolRequestSchema, ListToolsRequestSchema } = require('@modelcontextprotocol/sdk/types.js');
+const express = require('express');
+const cors = require('cors');
 
 const campaignGenerator = require('./campaign-generator');
 const { validateRequest } = require('./utils');
@@ -290,9 +292,45 @@ ${festivalData.traditional_elements.map((element, i) => `• ${element}`).join('
   }
 
   async run() {
-    const transport = new StdioServerTransport();
-    await this.server.connect(transport);
-    console.error('EventPulse MCP Server running on stdio');
+    const app = express();
+    app.use(cors());
+    app.use(express.json());
+
+    // Health check endpoint
+    app.get('/', (req, res) => {
+      res.json({
+        name: 'EventPulse MCP Server',
+        version: '1.0.0',
+        status: 'running',
+        description: 'Hyper-local event-driven marketing campaigns for small businesses',
+        mcp_endpoint: '/sse',
+        tools: ['generate_festival_campaign', 'get_festival_insights', 'validate']
+      });
+    });
+
+    // MCP SSE endpoint - This is the streamable HTTP transport
+    app.get('/sse', async (req, res) => {
+      console.log('🔗 New MCP SSE connection established');
+      
+      // Set up SSE headers
+      res.writeHead(200, {
+        'Content-Type': 'text/event-stream',
+        'Cache-Control': 'no-cache',
+        'Connection': 'keep-alive',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': 'Cache-Control'
+      });
+
+      const transport = new SSEServerTransport('/sse', res);
+      await this.server.connect(transport);
+    });
+
+    const port = process.env.PORT || 3000;
+    app.listen(port, () => {
+      console.log(`🚀 EventPulse MCP Server running on port ${port}`);
+      console.log(`📡 MCP SSE endpoint: http://localhost:${port}/sse`);
+      console.log(`🏥 Health check: http://localhost:${port}/`);
+    });
   }
 }
 
