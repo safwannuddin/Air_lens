@@ -325,11 +325,11 @@ ${festivalData.traditional_elements.map((element, i) => `• ${element}`).join('
       await this.server.connect(transport);
     });
 
-    const port = process.env.PORT || 3000;
-    app.listen(port, () => {
-      console.log(`🚀 EventPulse MCP Server running on port ${port}`);
-      console.log(`📡 MCP SSE endpoint: http://localhost:${port}/sse`);
-      console.log(`🏥 Health check: http://localhost:${port}/`);
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`🚀 EventPulse MCP Server running on port ${PORT}`);
+      console.log(`📡 MCP SSE endpoint: http://localhost:${PORT}/sse`);
+      console.log(`🏥 Health check: http://localhost:${PORT}/`);
     });
   }
 }

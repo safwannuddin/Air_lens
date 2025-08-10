@@ -4,7 +4,8 @@
   "description": "EventPulse MCP Server - Hyper-local event-driven marketing campaigns for small businesses",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node src/mcp-server.js",
+    "server": "node src/server.js",
     "mcp": "node src/mcp-server.js",
     "dev": "nodemon src/server.js",
     "test": "node test/test-server.js",
