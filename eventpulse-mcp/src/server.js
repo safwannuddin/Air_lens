@@ -120,11 +120,83 @@ app.get('/docs', (req, res) => {
   });
 });
 
+// MCP endpoint for hackathon platform
+app.post('/mcp', async (req, res) => {
+  try {
+    const { method, params } = req.body;
+    
+    if (method === 'tools/list') {
+      return res.json({
+        tools: [
+          {
+            name: 'generate_festival_campaign',
+            description: 'Generate hyper-local marketing campaigns for festivals and events'
+          },
+          {
+            name: 'get_festival_insights', 
+            description: 'Get cultural insights and best practices for festival marketing'
+          },
+          {
+            name: 'validate',
+            description: 'Validate and return user number in country code format'
+          }
+        ]
+      });
+    }
+    
+    if (method === 'tools/call') {
+      const { name, arguments: args } = params;
+      
+      if (name === 'validate') {
+        const { number = '1234567890', country_code = '+91' } = args || {};
+        return res.json({
+          content: [{
+            type: 'text',
+            text: `${country_code}${number}`
+          }]
+        });
+      }
+      
+      if (name === 'generate_festival_campaign') {
+        const campaign = await campaignGenerator.generateCampaign(args);
+        const response = formatResponse(campaign, args);
+        return res.json({
+          content: [{
+            type: 'text', 
+            text: `Campaign generated: ${response.campaign_content.whatsapp_message}`
+          }]
+        });
+      }
+    }
+    
+    res.json({ error: 'Method not supported' });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Root endpoint for MCP server identification
+app.get('/', (req, res) => {
+  res.json({
+    name: 'EventPulse MCP Server',
+    version: '1.0.0',
+    status: 'running',
+    description: 'Hyper-local event-driven marketing campaigns for small businesses',
+    mcp_endpoint: '/mcp',
+    tools: [
+      'generate_festival_campaign',
+      'get_festival_insights', 
+      'validate'
+    ]
+  });
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`🚀 EventPulse MCP Server running on port ${PORT}`);
   console.log(`📖 API Documentation: http://localhost:${PORT}/docs`);
   console.log(`🎯 Campaign Endpoint: http://localhost:${PORT}/v1/generate-campaign`);
+  console.log(`🔧 MCP Endpoint: http://localhost:${PORT}/mcp`);
 });
 
 module.exports = app;
