@@ -326,10 +326,13 @@ ${festivalData.traditional_elements.map((element, i) => `• ${element}`).join('
     });
 
     const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => {
-      console.log(`🚀 EventPulse MCP Server running on port ${PORT}`);
+    const HOST = '0.0.0.0'; // Listen on all interfaces for Railway
+    
+    app.listen(PORT, HOST, () => {
+      console.log(`🚀 EventPulse MCP Server running on ${HOST}:${PORT}`);
       console.log(`📡 MCP SSE endpoint: http://localhost:${PORT}/sse`);
       console.log(`🏥 Health check: http://localhost:${PORT}/`);
+      console.log(`🌐 Railway should expose this as a public URL`);
     });
   }
 }
